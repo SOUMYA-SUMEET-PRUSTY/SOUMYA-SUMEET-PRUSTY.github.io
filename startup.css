@@ -1,0 +1,52 @@
+body,html{ 
+
+/*This is a way to set background image from CSS-TRICKS. These pre defined things helps.*/
+
+  background: url(startup.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+h1{
+
+  font-size: 3rem;
+  color: white;
+}
+
+hr{
+  /*color: orangered;*/
+  border-color: orangered;
+  border-width: 3px;
+  /*max-width: 65px;*/
+  width: 65px;
+}
+
+.buffer{
+  height: 5rem;
+}
+
+
+.btn{
+
+  font-weight: 500;
+  border-radius: 100px;
+  text-transform: uppercase;
+  /*background-color: orangered;*/
+}
+.btn-primary{
+
+ /*text-transform: uppercase;*/
+ background-color: orangered;
+ border-color: orangered;
+  
+}
+
+.btn-primary:hover{
+  background-color: green;
+  border-color: green;
+  border-width: 5px;
+}
